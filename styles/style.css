@@ -365,5 +365,6 @@ body {
 .header__content {
   height: 752px;
   background-image: url(../images/Header-bg.jpg);
+  background-size: cover;
 }
 /*# sourceMappingURL=style.css.map */
