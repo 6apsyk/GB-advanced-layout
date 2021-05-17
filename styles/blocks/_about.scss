@@ -1,0 +1,39 @@
+$BorderYellow: yellow;
+
+.about{
+    background: #F6F8FA;
+    min-height: 501px;
+}
+
+.about__inner{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 152px;
+    box-sizing: border-box;
+
+    @media (max-width:1070px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        padding-top: 80px;
+    }
+}
+
+.title{
+    height: 80px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 75px;
+    letter-spacing: -1.65px;
+    color: #242121;
+    border-bottom: 3px solid $BorderYellow;
+}
+
+.about__text{
+    max-width: 770px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #373A39;
+}

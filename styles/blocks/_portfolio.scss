@@ -1,0 +1,105 @@
+.portfolio__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 330px;
+
+    @media (max-width:810px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+}
+
+@media (max-width:810px){
+    .portfolio__menu{
+        flex-direction: column;
+    }
+}
+
+.portfolio__items{
+    // background: rgb(53, 150, 151);
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width:500px){
+        display: block;
+    }    
+}
+
+.portfolio__item-img{
+    // min-width: 343px;
+    background: #EDEDED;;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.porfolio__item-title{
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.portfolio__item-description{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.portfolio__column-one{
+    margin-right: 22px;
+    flex-grow: 1;
+    @media (max-width:500px){
+        margin-right: 0;
+    }
+}
+.portfolio__column-two{
+    margin-right: 22px;
+    flex-grow: 1;
+    @media (max-width:500px){
+        margin-right: 0;
+    }
+}
+.portfolio__column-three{
+    margin-right: 22px;
+    flex-grow: 1;
+    @media (max-width:500px){
+        margin-right: 0;
+    }
+}
+.portfolio__column-four{
+    flex-grow: 1;
+    @media (max-width:500px){
+        margin-right: 0;
+    }
+}
+.portfolio__column-one .portfolio__item-img:nth-child(1){
+    height: 460px;
+}
+.portfolio__item-img:nth-child(2){
+    height: 327px;
+}
+.portfolio__column-two .portfolio__item-img:nth-child(1),
+.portfolio__column-two .portfolio__item-img:nth-child(2),
+.portfolio__column-two .portfolio__item-img:nth-child(3){
+    height: 256px;
+    background: linear-gradient(0deg, rgba(36, 33, 33, 0.8), rgba(36, 33, 33, 0.8)), #EDEDED;
+    border: 12px solid rgba(255, 255, 255, 0.147164);
+    box-sizing: border-box;
+}
+.portfolio__column-three .portfolio__item-img:nth-child(1){
+    height: 327px;
+}
+.portfolio__column-three .portfolio__item-img:nth-child(2){
+    height: 460px;
+}
+.portfolio__column-four .portfolio__item-img:nth-child(1){
+    height: 280px;
+}
+.portfolio__column-four .portfolio__item-img:nth-child(2){
+    height: 507px;
+}
