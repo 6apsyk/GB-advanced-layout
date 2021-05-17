@@ -78,11 +78,6 @@
   margin-right: 50px;
 }
 
-.header__content {
-  height: 752px;
-  background-image: url(/images/Header-bg.jpg);
-}
-
 .header__content-inner {
   height: inherit;
   display: -webkit-box;
@@ -365,5 +360,10 @@ body {
     padding-right: 30px;
     padding-left: 30px;
   }
+}
+
+.header__content {
+  height: 752px;
+  background-image: url(../images/Header-bg.jpg);
 }
 /*# sourceMappingURL=style.css.map */
